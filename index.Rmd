@@ -120,7 +120,7 @@ filtrarRegistros <- reactive({
 })
 ```
 
-Row Row {data-width=800}
+Row {data-width=800}
 -----------------------------------------------------------------------
 
 ### Mapa de distribución de denuncias ambientales en Costa Rica (2018-2019)
@@ -188,7 +188,7 @@ renderLeaflet({
 ```
 
 
-### Registros de denuncias ambientales en Costa Rica (2018-2019)
+### Cantidad de denuncias ambientales en Costa Rica en el periodo 2018-2019
 
 ```{r grafico}
 
@@ -223,7 +223,7 @@ renderPlotly({
 Row {data-width=200}
 -----------------------------------------------------------------------
 
-### Cantidad de denuncias ambientales en Costa Rica en el periodo 2018-2019
+###  Registros de denuncias ambientales en Costa Rica (2018-2019)
 
 ```{r tabla}
 renderDT({
